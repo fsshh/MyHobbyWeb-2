@@ -68,8 +68,8 @@ const desc_philo = document.querySelectorAll('.description-philo');
 const desc_cs = document.querySelectorAll('.description-cs');
 const desc_ce = document.querySelectorAll('.description-ce');
 
+// the description's home button icon functionality
 const home_icon_bttn = document.getElementById('home_icon_bttn');
-
 home_icon_bttn.addEventListener('click', e => {
     main_Contnt.classList.replace('display-none', 'display-block');
     desc.classList.replace('display-block', 'display-none');
